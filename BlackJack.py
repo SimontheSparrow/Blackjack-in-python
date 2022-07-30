@@ -7,7 +7,7 @@ player_cards = [cards[random.randrange(
     0, len(cards)-1)], cards[random.randrange(0, len(cards)-1)]]
 cpu_cards = [cards[random.randrange(
     0, len(cards)-1)], cards[random.randrange(0, len(cards)-1)]]
-
+ 
 print(
     f"You have {player_cards[0]} and {player_cards[1]} \nCpu has {cpu_cards[0]} and one other")
 
